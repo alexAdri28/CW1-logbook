@@ -3,7 +3,7 @@
   header("Content-type: image/jpeg");
 
   $servername = 'localhost';
-  $db_name = 'db1_21906325';
+  $db_name = 'db1_21904142';
   $username = 'root';
   $password = '';
 
@@ -18,4 +18,3 @@
   $jpg = $row["image"];
 
   echo $jpg;
-?>
